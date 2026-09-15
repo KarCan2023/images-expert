@@ -8,3 +8,6 @@ select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# La raíz del repo en sys.path: los módulos (image_tools) viven ahí, no en un
+# paquete instalado. Sin esto `pytest` falla aunque `python -m pytest` funcione.
+pythonpath = ["."]
