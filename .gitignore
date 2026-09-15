@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Tests y linters
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Salidas locales de la app
+salida/
+*_procesado.*
+imagenes_procesadas.zip
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
