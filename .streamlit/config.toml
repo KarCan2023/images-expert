@@ -1,0 +1,10 @@
+[server]
+# Tamaño máximo por archivo subido (MB). Súbelo si trabajas con TIFF grandes.
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#FF4B4B"
